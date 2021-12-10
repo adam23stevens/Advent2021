@@ -1,0 +1,13 @@
+--part 1
+
+loop through each line
+keep a track of next expected close shape. 
+if you hit an open shape - update the next expected close shape
+if you hit a matching close shape to the expected close shape, update the next expected close shape to be the next one in the list
+if you hit a close shape not matching the next expected close shape, the line is corrupted. store the offending character found in a list of retList 
+
+loop the retList and tally up the score
+
+
+---part 2
+
