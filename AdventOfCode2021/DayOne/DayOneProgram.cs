@@ -6,13 +6,11 @@ namespace AdventOfCode2021.DayOne
 {
     public static class DayOneProgram
     {
-        private static int part1Answer;
-        private static int part2Answer;
         public static string GetPart1Answer()
         {
             var allNumbers = FileReader.GetNumbers().ToArray();
 
-            part1Answer = GetIncreaseCountInArray(allNumbers);
+            var part1Answer = GetIncreaseCountInArray(allNumbers);
 
             return part1Answer.ToString();
         }
@@ -21,7 +19,7 @@ namespace AdventOfCode2021.DayOne
         {
             var numberGroups = FileReader.GetNumberGroups().ToArray();
 
-            part2Answer = GetIncreaseCountInArray(numberGroups);
+            var part2Answer = GetIncreaseCountInArray(numberGroups);
 
             return part2Answer.ToString();
         }

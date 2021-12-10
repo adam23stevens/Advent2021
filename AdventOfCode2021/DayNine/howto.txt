@@ -1,0 +1,17 @@
+for every number in the list. obtain it's counterparts left, right, up, down
+check if it's higher than any counterparts. if it is, then skip to next one and don't store in list
+
+treat these all like strings
+
+for(var x = 0; x < strings.length; x++) {
+for(var y = 0; y < string.length; y++) {
+
+
+//iterating through each number now
+var thisnum = strings[x]string[y];
+left would be strings[x]string[y-1];
+right would be strinfgs[x]string[y+1];
+up would be strings[x-1]string[y];
+down would be strings[x+1]string[y];
+
+
