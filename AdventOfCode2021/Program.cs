@@ -38,6 +38,9 @@ namespace AdventOfCode2021
 
             AnswerPrinter.PrintAnswer(10, 1, DayTen.DayTenProgram.GetPart1Answer());
             AnswerPrinter.PrintAnswer(10, 2, DayTen.DayTenProgram.GetPart2Answer());
+
+            AnswerPrinter.PrintAnswer(11, 1, DayEleven.DayElevenProgram.GetPart1Answer());
+            AnswerPrinter.PrintAnswer(11, 2, DayEleven.DayElevenProgram.GetPart2Answer());
         }
     }
 }

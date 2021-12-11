@@ -1,0 +1,8 @@
+Part 1
+
+Loop through each number
+increment each one 
+
+if any 'flash' then reset them to 0 and increment flashcnt
+check all neighbours and increment them
+

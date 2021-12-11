@@ -15,3 +15,22 @@ up would be strings[x-1]string[y];
 down would be strings[x+1]string[y];
 
 
+------part 2
+
+Loop through numbers again
+if 9 then skip
+else check if the coordinates (x and y) exist in found basins , if so - skip. 
+else - calculate size of this basin (separate method)
+if list of existing basins < 3 then add this in otherwise check if it's larger than any of the existing basins
+if it is then replace it with the smallest existing basin in store
+
+
+//calculate basin size
+foreach number, work out if up, down, left or right is also a basin. if it is add it to known basins. 
+then if you see that number again, you can increase the known basin size. 
+so each basin will have 'source' of where it was found first and be joined together by subsequent numbers that aren't 9 and are joined 
+by other numbers also not 9. 
+
+
+
+
